@@ -1,5 +1,7 @@
 package TwoSum;
 
+import PalindromeNumber.IsPalindrome;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,6 +14,9 @@ public class Main {
         System.out.println("Hash Map variant: ");
         HashMapVariant hashMapVariant = new HashMapVariant();
         hashMapVariant.twoSum(arr, target);
+
+        IsPalindrome x = new IsPalindrome();
+        System.out.println(x.checkPalindrome(1221));
 
     }
 
